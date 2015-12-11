@@ -1,0 +1,93 @@
+body{
+	font-family: Verdana;
+	font-size: 15px;	
+	margin: 0;
+}
+
+#locs{
+   float: left;
+	z-index: 50;
+    position: absolute;
+    background: #F8F8F8;
+    border: 1px solid #e7e7e7;
+    height: 100%;
+    min-width: 250px;
+    overflow: auto;
+}
+
+.loc{
+	cursor: pointer;
+	border-bottom: 1px solid #e7e7e7;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#topBar{
+	height: 50px;
+	width: 100%;
+	background-color: #f8f8f8;
+    border: 1px solid #e7e7e7
+}
+
+#topBar #logo{
+	float:left;
+}
+
+#topBar #back{
+	float: right;
+    padding: 15px;
+}
+
+#topBar #back img{
+	margin-right: 5px;
+	vertical-align: middleM;
+}
+
+#topBar #back a{
+	text-decoration: none;
+	font-size: 13px;
+}
+
+#logo img{
+	width: 285px;
+	padding: 5px;
+}
+
+#logo a{
+}
+
+.markerFilter{
+	width: 25px;
+    vertical-align: middle;
+}
+
+.markerLocation{
+	width: 25px;
+    vertical-align: middle;
+}
+
+.locName{
+	font-size: 14px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.address{
+	font-size: 11px;
+}
+
+#map_filter{
+	text-align: center;
+    height: 30px;
+    padding: 10px;
+    background: #525866;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: 2px solid White;
+}
+
+#mapFilter input{
+	vertical-align: middle;
+}
